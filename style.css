@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        to right, 
+        #8399a2, #eef2f3);
+}
+
+.clock {
+    width: 800px;
+    background: #000;
+    color: #fff;
+    padding: 30px 20px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.time-display {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.time-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    background: #bfbfbf;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 18px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.hour, .minutes, .sec {
+    font-size: 110px;
+    font-weight: 400;
+    padding: 12px 25px;
+    border-radius: 25px;
+    width: 200px;      
+    box-sizing: border-box; 
+    text-align: center;
+    color: #fff;
+}
+
+.hour { background: #085370; }
+.minutes { background: #477c09; }
+.sec { background: #b65d0a; }
+
+.colan {
+    font-size: 80px;
+    font-weight: bold;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.date_time {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ddd;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
